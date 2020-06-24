@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Procurar pessoa no GitHub</title>
+	<link rel="stylesheet" href="style/style.css">
+	<!-- Icon da aba -->
+	<link rel="icon" href="favicon.png">
+</head>
+<body>
+
+	<header>
+		<form class="form-busca">
+			<input type="text" name="nome" class="form-busca__nome" placeholder="Pesquisar programador : ">
+			<input type="button" id="btn" class="form-busca__procurar" value="procurar">
+		</form>
+	</header>
+
+	<section class="usuarios">
+
+
+		<!-- Foto do usuario -->
+		<img src="" id="photo_user">
+	
+		<!-- Nome do usuario -->
+		<p id="user" class="usuarios__descricao"></p>
+
+		<!-- Bio -->
+		<p id="bio" class="usuarios__descricao"></p>
+
+		<!-- Nome da compania -->
+		<p id="company" class="usuarios__descricao"></p>
+
+		<!-- Localização -->
+		<p id="location" class="usuarios__descricao"></p>
+
+		<!-- Nome do blog -->
+		<p id="blog" class="usuarios__descricao"></p>
+		
+		<!-- Seguidores-->
+		<p id="seguidores" class="usuarios__descricao"></p>
+
+		<!-- Seguindo -->
+		<p id="seguindo" class="usuarios__descricao"></p>
+
+	</section>
+
+
+	<!-- Link icons -->
+	<script src="https://kit.fontawesome.com/952f39baf0.js"></script>
+
+	<script src="script/procurar.js"></script>
+
+</body>
+</html>
