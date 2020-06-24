@@ -1,0 +1,52 @@
+
+/* CSS Reset */
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: open sans , sans-serif;}*
+
+body{
+	background-color: #2a7ae4;
+}
+
+/* Formatação do formalário de busca de usuarios no github*/
+.form-busca{
+	padding: 1.5% 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-busca__nome{	
+	width: 100%;
+	border: 1px solid #fff;
+	border-radius: 5px 0 0 5px ;
+	padding: 10px 10px;
+	margin-right: 10px;
+}
+
+.form-busca__procurar{
+	padding: 10px 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid #fff;
+	border-radius: 0 5px 5px 0;
+}
+
+/* Formatação dos dados do usuario*/
+.usuarios{
+	padding: 1.5% 5%;
+}
+
+#user{
+	font-weight: bold;
+}
+.usuarios__descricao{
+	margin-bottom: 1em;
+}
+
+/* Formatação da foto do usuario pesquisado */
+#photo_user{
+	width: 100%;
+	max-width: 250px;
+	border-radius: 10px;
+	margin: 20px 0;
+}
+
